@@ -1,0 +1,50 @@
+header {
+    height: auto;
+    /* background-color: blue; */
+    width: 980px;
+    padding-top: 1px;
+}
+
+header .redes {
+    height: 50px;
+    width: 80px;
+    display: block;
+    float: right;
+}
+
+#banner {
+    background-color: red;
+    height: 300px;
+    width: 980px;
+}
+
+#banner img {
+    height: 300px;
+    width: 980px;
+}
+
+#about {
+    background-color: green;
+    height: 170;
+    width: 980px;
+    display: flex;
+    flex-direction: row;
+}
+
+#perfil {
+    background-color: gray;
+    height: 170px;
+    width: 200px;
+    text-align: center;
+}
+#perfil img {
+    height: 170px;
+    width: 150px;
+    border-radius: 50%;    
+}
+
+#informacion {
+    background-color: yellow;
+    height: 170px;
+    width: 780px;
+}

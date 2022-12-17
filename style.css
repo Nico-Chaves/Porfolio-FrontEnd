@@ -1,8 +1,15 @@
 header {
     height: auto;
     /* background-color: blue; */
-    width: 980px;
     padding-top: 1px;
+}
+
+.nav-barra {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
 }
 
 header .redes {
@@ -12,39 +19,42 @@ header .redes {
     float: right;
 }
 
-#banner {
+.banner {
     background-color: red;
     height: 300px;
-    width: 980px;
+    width: 100%;
 }
 
-#banner img {
+.banner img {
     height: 300px;
-    width: 980px;
+    object-fit: cover;
+    width: 100%;
 }
 
-#about {
+.about {
     background-color: green;
-    height: 170;
-    width: 980px;
-    display: flex;
-    flex-direction: row;
 }
 
-#perfil {
-    background-color: gray;
-    height: 170px;
-    width: 200px;
+.perfil {
+    /* background-color: gray; */
     text-align: center;
 }
-#perfil img {
+.perfil .perfil__imagen--contenedor {
     height: 170px;
-    width: 150px;
-    border-radius: 50%;    
+    width: 170px;
+    border-radius: 50%; 
+    overflow: hidden;
+}
+.perfil .perfil__imagen--contenedor .perfil__imagen {
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
 }
 
-#informacion {
+.mt-n45{
+    margin-top: -45%;
+}
+
+.informacion {
     background-color: yellow;
-    height: 170px;
-    width: 780px;
 }

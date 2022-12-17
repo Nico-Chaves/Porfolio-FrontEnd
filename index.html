@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <ul class="nav justify-content-end">
+        <ul class="nav justify-content-end nav-barra">
             <li class="nav-item">
               <a class="nav-link" href="https://github.com/Nico-Chaves">
                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZdJREFUSEu1lYExBVEMRe+vABWgAlSAClABKkAFqAAdUMGnAlSADuiACpgzk+zkZ7L735rZzOzs7puXe5P7kryZJrbZxPhqITiUdCBp2x5ierfnRdLDUJBDBADfSNpYkuWnpAtJj9W+PoIrSZcj5bs1ogW3iuA/4A56J+k8MmSCPUnPtuFJEmQnks5s7cPeW/ZG/3vbc2xrR1GuTICe67bx2gj4XZX0nSSLazFrMDZ9byTgUOcBhOiIvsWyrKeW2UKZkqqnCei+JMqwxSjhtyq4mAFgu0FrnMZY9KdPdnCOBGi8YoivkjjwMRYJOuxI8BvQJiGIEZDN2pjwrcpcgS+fADGDfMi0P93ZYjQXY8Wtq8C+Mv2x86D86M7cAw5EL1B5OZCyTHGiSUiTEiUqL1u6mp5wIoDJmKrjO1onT64i/n1UAESZOUjsagfLkvr6Qv9Uw871LKdjCLUaikuHnfs7CQ1DNj7UohSZoMpy8EZDLmRg+FXOToDmnE85VlquTIjIgmyiMUq47cqbzDe2ELT0Qe+eyQn+AIklVhnz1DvpAAAAAElFTkSuQmCC"/>
@@ -27,18 +27,25 @@
             </li>            
           </ul>        
     </header>
-    <div id="banner">
+    <div class="banner">
         <img src="./img/foto_banner.webp" alt="foto_banner"/>
     </div>
-    <div id="about">
-        <div id="perfil">
-            <img src="./img/nicolaschaves.jpg" alt="Nicolás Chaves"/>
+    <div class="about row p-3">
+        <div class="perfil d-flex justify-content-center align-items-center col-3 flex-column">
+            <div class="perfil__imagen--contenedor mt-n45">
+                <img class="perfil__imagen" src="./img/nicolaschaves.jpg" alt="Nicolás Chaves"/>
+            </div>
+            <div>
+                <h2>Nicolas Chaves</h2>
+                <h6>Desarrollador FullStack Jr.</h6>
+            </div>
         </div>
-        <div id="informacion">
-            <h2>Acerca de...</h2>
+        <div class="informacion col">
+            <h3>Sobre mí</h3>
             <p>Soy Ingeniero Mecánico graduando en la Universidad Nacional de Mar del Plata. Actualmente me estoy capacitando en diversas tecnologias para el desarrollo Web (HTML, CSS, PHP, React JS, JavaScript). Los conocimientos adquiridos durante mi carrera académica, sumados a mi capacidad de trabajo en equipo y el entusiasmo de trabajar y aprender, me han dado la formación necesaria para poder incorporarme a una empresa, con el objetivo de desarrollar tanto mis conocimientos, como mi vida profesional.</p>
         </div>
     </div>
+    <hr>
     <div id="experiencia">
         <h2>Experiencia</h2>
         <div>
@@ -50,6 +57,7 @@
             <div id="info_logo2"></div>
         </div>
     </div>
+    <hr>
     <div id="educacion">
         <h2>Educación</h2>
         <div>

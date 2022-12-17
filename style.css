@@ -58,3 +58,15 @@ header .redes {
 .informacion {
     background-color: yellow;
 }
+
+.logo_experiencia{
+    height: 50px;
+    width: 50px; 
+    overflow: hidden;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}

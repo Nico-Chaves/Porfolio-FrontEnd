@@ -1,9 +1,7 @@
 header {
     height: auto;
-    /* background-color: blue; */
     padding-top: 1px;
 }
-
 .nav-barra {
     position: fixed;
     top: 0;
@@ -11,32 +9,24 @@ header {
     width: 100%;
     background-color: rgba(0,0,0,0.3);
 }
-
 header .redes {
     height: 50px;
     width: 80px;
     display: block;
     float: right;
 }
-
 .banner {
-    background-color: red;
     height: 300px;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
-
 .banner img {
     height: 300px;
     object-fit: cover;
     width: 100%;
 }
-
-.about {
-    background-color: green;
-}
-
 .perfil {
-    /* background-color: gray; */
     text-align: center;
 }
 .perfil .perfil__imagen--contenedor {
@@ -55,18 +45,24 @@ header .redes {
     margin-top: -45%;
 }
 
-.informacion {
-    background-color: yellow;
-}
-
 .logo_experiencia{
-    height: 50px;
-    width: 50px; 
-    overflow: hidden;
+    height: 80px;
+    width: 80px; 
 }
 
 .logo{
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     object-fit: cover;
+}
+
+.mat-card{
+    border-radius: 32px;
+    margin: 10px 45px;
+    border-color: #0a66c2;
+    overflow: hidden;
+}
+
+.experiencia{
+    margin: 10px 0;
 }

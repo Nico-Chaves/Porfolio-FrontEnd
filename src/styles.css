@@ -58,8 +58,9 @@ header .redes {
     border-color: #0a66c2;
     overflow: hidden;
 }
-.experiencia{
-    margin: 10px 0;
+.experiencia, .educacion{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .btn-rigth{
     display: flex;

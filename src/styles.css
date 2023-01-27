@@ -40,29 +40,41 @@ header .redes {
     width: 170px;
     object-fit: cover;
 }
-
 .mt-n45{
     margin-top: -45%;
 }
-
 .logo_experiencia{
     height: 80px;
     width: 80px; 
 }
-
 .logo{
     height: 70px;
     width: 70px;
     object-fit: cover;
 }
-
 .mat-card{
     border-radius: 32px;
     margin: 10px 45px;
     border-color: #0a66c2;
     overflow: hidden;
 }
-
 .experiencia{
     margin: 10px 0;
+}
+.btn-rigth{
+    display: flex;
+    align-self: flex-end;
+}
+.fa-button, .fa{
+    color: black;
+    display: block;
+    height: 2.4rem;
+    width: 2.4rem;
+    line-height: 2.4rem;
+    text-align: center;
+    border-radius: 50%;
+    background: white;
+}
+.fa-button:hover, .fa:hover {
+    background: grey;
 }

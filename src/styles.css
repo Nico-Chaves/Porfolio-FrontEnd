@@ -62,10 +62,6 @@ header .redes {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.btn-rigth{
-    display: flex;
-    align-self: flex-end;
-}
 .fa-button, .fa{
     color: black;
     display: block;

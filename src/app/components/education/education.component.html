@@ -4,22 +4,25 @@
             <h2>Educación</h2>
             <a href="#"><i class="fa-solid fa-plus fa-2x"></i></a>
         </div>
-        <div class="row experiencia">
-            <div class="logo_experiencia col-1">
-                <img class="logo" src="../assets/img/argentina_programa.jfif" alt="Argentina Programa 4.0 Segunda Etapa"/>
-            </div>
-            <div class="info_educacion col">
-                <div class="d-flex justify-content-between">
-                    <div>Argentina Programa Segunda Etapa <b>#YoProgramo</b></div>
-                    <a href="#"><i class="fa-solid fa-pen fa-lg"></i></a>
-                </div>                
-                <div>Desarrollo FrontEnd y BackEnd profolio personal.<br>
-                    Desarrollador FullStack Jr.</div>
-                <div><p><time>2022</time> - <time>2022</time></p></div>
-            </div>
-        </div>
-        <hr> 
-        <div class="row experiencia">
+        <ul>
+            <li *ngFor="let educacion of educacionList">
+                <div class="row experiencia">
+                    <div class="logo_experiencia col-1">
+                        <img class="logo" [src]="educacion.img" alt="{{educacion.alt}}"/>
+                    </div>
+                    <div class="info_educacion col">
+                        <div class="d-flex justify-content-between">
+                            <div>{{educacion.name}}</div>
+                            <a href="#"><i class="fa-solid fa-pen fa-lg"></i></a>
+                        </div>                
+                        <div>{{educacion.description}}</div>
+                        <div><p><time>{{educacion.start}}</time> - <time>{{educacion.end}}</time></p></div>
+                    </div>
+                </div>
+                <hr> 
+            </li>
+        </ul>
+        <!-- <div class="row experiencia">
             <div class="logo_experiencia col-1">
                 <img class="logo" src="../assets/img/argentina_programa.jfif" alt="Argentina Programa 4.0 Primera Etapa"/>
             </div>
@@ -75,6 +78,6 @@
                 <div>Ingeniería Mecánica</div>
                 <div><p><time>2006</time> - <time>2016</time></p></div>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>

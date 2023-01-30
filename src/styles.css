@@ -75,3 +75,6 @@ header .redes {
 .fa-button:hover, .fa:hover {
     background: grey;
 }
+li{
+    list-style: none;
+}

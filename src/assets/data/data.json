@@ -1,0 +1,104 @@
+{
+    "name": "Nicolas Chaves",
+    "position": "Desarrollador Full Stack Jr.",
+    "imagenPerfil": "./img/nicolaschaves.jpg",
+    "imagenBackground": "./img/foto_banner.webp",
+    "about": "Soy Ingeniero Mecánico graduando en la Universidad Nacional de Mar del Plata. Actualmente me estoy capacitando en diversas tecnologias para el desarrollo Web (HTML, CSS, PHP, React JS, JavaScript). Los conocimientos adquiridos durante mi carrera académica, sumados a mi capacidad de trabajo en equipo y el entusiasmo de trabajar y aprender, me han dado la formación necesaria para poder incorporarme a una empresa, con el objetivo de desarrollar tanto mis conocimientos, como mi vida profesional.",
+
+    "experience":[{
+        "position":"Supervisor Diseño Mecánico",
+        "company":"Fluence Corporation",
+        "img":"./img/fluence.png",
+        "alt":"Foto Logo Fluence",
+        "mode":"Jornada completa",
+        "start":"2018",
+        "end":"2022",
+        "city":"Mar del Plata, Provincia de Buenos Aires, Argentina",
+        "description":"Supervisor de Diseño Mecánico en el área de Ingeniería. Contacto con proveedores para el pedido de presupuesto y toma de decisión sobre los mismos. Personas a cargo, 4 diseñadores mecánicos. Supervisión de planos y listados de materiales para fabricación. Generación de listados de materiales para que el sector de comprascrealice las mismas. Confección y supervisión tanto de planos P&ID como de documentos para los clientes. Supervisión en los diseños de los equipos. Responsable a cargo de la gestión, administración, control y ejecución de proyectos."
+    },
+    {
+        "position":"Evaluador de campo y Analista Jr.",
+        "company":"Gie Group",
+        "img":"./img/gie.jfif",
+        "alt":"Foto Logo Gie",
+        "mode":"Jornada completa",
+        "start":"2017",
+        "end":"2018",
+        "city":"Mar del Plata, Provincia de Buenos Aires, Argentina",
+        "description":"Analista Jr. y evaluador de campo para la integridad de ductos de petróleo y gas.Utilización de equipos de ultrasonido para la medición de espesores de ductos. Análisis bajo normas de los datos obtenidos en campo para determinar la integridad de los ductos ensayados."
+    },
+    {
+        "position":"Diseñador Mecánico",
+        "company":"Abreu",
+        "img":"./img/Abreu.jfif",
+        "alt":"Foto Logo Abreu",
+        "mode":"Jornada completa",
+        "start":"2017",
+        "end":"2017",
+        "city":"Mar del Plata, Provincia de Buenos Aires, Argentina",
+        "description":"Diseñador Mecánico. Limpieza y desarrollo de planos para corte por chorro de agua y laser.Cotizaciones de proyectos. Diseño de máquinas para la industria alimenticia."
+    },
+    {
+        "position":"Investigador Jr.",
+        "company":"Facultad Nacional de Ingenieria - UNMDP",
+        "img":"./img/Universidad.webp",
+        "alt":"Foto Logo UNMDP",
+        "mode":"Jornada completa",
+        "start":"2015",
+        "end":"2016",
+        "city":"Mar del Plata, Provincia de Buenos Aires, Argentina",
+        "description":"Participación en proyecto de investigación y desarrollo realizado en el área Tecnología Mecánica de la facultad, en conjunto con el equipo de Metrología compuesto por 5 docentes investigadores y tesistas alumnos."
+    },
+    {
+        "position":"Diseñador Mecánico",
+        "company":"STI Ingeniería",
+        "img":"./img/STIIngenieria.webp",
+        "alt":"Foto Logo STI Ingeniería",
+        "mode":"Jornada completa",
+        "start":"2015",
+        "end":"2016",
+        "city":"Mar del Plata, Provincia de Buenos Aires, Argentina",
+        "description":"Cálculo y diseño de Planta de Tratamientos de Efluentes. Cálculo y diseño de estructuras.Confección de lista de materiales. Confección tabla de cálculo para el diseño y dimensionamiento tanto de tuberías como de bombas. Trato con proveedores. Confección de informe sobre el proyecto realizado. Confección de planos de cada parte que involucraba el proyecto."
+    }
+],
+    "education":[{
+        "name": "Argentina Programa Segunda Etapa <b>#YoProgramo</b>",
+        "description":"Desarrollo FrontEnd y BackEnd profolio personal.<br> Desarrollador FullStack Jr.",
+        "start":"2022",
+        "end":"2022",
+        "img":"./img/argentina_programa.jfif",
+        "alt":"Logo Argentina Programa"
+    },
+    {
+        "name": "Argentina Programa Primera Etapa <b>#SeProgramar</b>",
+        "description":"Conceptos fundamentales vinculados a la programación utilizando Gobstones.<br>Programación Imperativa y estructuras de datos utilizando JavaScript.<br>Programación con Objetos mediante el lenguaje Ruby.",
+        "start":"2022",
+        "end":"2022",
+        "img":"./img/argentina_programa.jfif",
+        "alt":"Logo Argentina Programa"
+    },
+    {
+        "name": "Centro de e-Learning UTN FRBA",
+        "description":"Desarrollo en React JS.",
+        "start":"2022",
+        "end":"2022",
+        "img":"./img/e-learning.jpg",
+        "alt":"Logo E-Learning UTN FRBA"
+    },
+    {
+        "name": "Centro de Formación Laboral N°402",
+        "description":"Especialización profesional en programación web con HTML,CSS, PHP y MySql",
+        "start":"2021",
+        "end":"2021",
+        "img":"./img/cfl402.png",
+        "alt":"Logo Centro Formación Laboral N°402"
+    },
+    {
+        "name": "Universidad Nacional de Mar del Plata",
+        "description":"Ingeniería Mecánica",
+        "start":"2006",
+        "end":"2016",
+        "img":"./img/Universidad.webp",
+        "alt":"Logo UNMDP"
+    }]
+}

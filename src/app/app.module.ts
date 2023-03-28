@@ -9,13 +9,15 @@ import { EducationComponent } from './components/education/education.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { PorfolioService } from './services/porfolio.service';
 import { HttpClientModule} from '@angular/common/http';
+import { LanguageComponent } from './components/language/language.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
     ExperienceComponent,
-    EducationComponent
+    EducationComponent,
+    LanguageComponent
   ],
   imports: [
     BrowserModule,

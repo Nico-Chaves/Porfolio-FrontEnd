@@ -1,0 +1,25 @@
+<div class="card mat-card">
+    <div class="experiencia container">
+        <div class="d-flex justify-content-between">
+            <h2>Idioma</h2>
+            <a href="#"><i class="fa-solid fa-plus fa-2x"></i></a>
+        </div>
+        <ul>
+            <li *ngFor="let idioma of idiomaList">        
+                <div class="row idioma">
+                    <div class="col-1">
+                        <img class="logo_idioma" [src]="idioma.img" alt="{{idioma.alt}}"/>
+                    </div>
+                    <div class="info_logo col">
+                        <div class="d-flex justify-content-between">
+                            <div>{{idioma.name}}</div>
+                            <a href="#"><i class="fa-solid fa-pen fa-lg"></i></a>
+                        </div>                
+                        <div>{{idioma.level}}</div>                        
+                    </div>
+                </div>
+                <hr>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -47,6 +47,12 @@ header .redes {
     height: 80px;
     width: 80px; 
 }
+.logo_idioma{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 .logo{
     height: 70px;
     width: 70px;
@@ -58,7 +64,7 @@ header .redes {
     border-color: #0a66c2;
     overflow: hidden;
 }
-.experiencia, .educacion{
+.experiencia, .educacion, .idioma{
     padding-top: 20px;
     padding-bottom: 20px;
 }

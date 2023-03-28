@@ -1,14 +1,14 @@
 {
     "name": "Nicolas Chaves",
     "position": "Desarrollador Full Stack Jr.",
-    "imagenPerfil": "./img/nicolaschaves.jpg",
-    "imagenBackground": "./img/foto_banner.webp",
+    "imagenPerfil": "https://media.licdn.com/dms/image/C4D03AQEt5Kp0kkZW1g/profile-displayphoto-shrink_800_800/0/1632179153233?e=1680739200&v=beta&t=H5bIEFCTPWxVPoBJzXIR8hG9DpSc5zu3dkhUMTxrK54",
+    "imagenBackground": "https://www.adslzone.net/app/uploads-adslzone.net/2021/10/lenguaje-de-programacion.jpg",
     "about": "Soy Ingeniero Mecánico graduando en la Universidad Nacional de Mar del Plata. Actualmente me estoy capacitando en diversas tecnologias para el desarrollo Web (HTML, CSS, PHP, React JS, JavaScript). Los conocimientos adquiridos durante mi carrera académica, sumados a mi capacidad de trabajo en equipo y el entusiasmo de trabajar y aprender, me han dado la formación necesaria para poder incorporarme a una empresa, con el objetivo de desarrollar tanto mis conocimientos, como mi vida profesional.",
 
     "experience":[{
         "position":"Supervisor Diseño Mecánico",
         "company":"Fluence Corporation",
-        "img":"./img/fluence.png",
+        "img":"https://media.licdn.com/dms/image/C4E0BAQEujyhkQzucYw/company-logo_200_200/0/1519878708360?e=1683158400&v=beta&t=pZhU5Ql8NWjvDtS5H2UhiyzJrHuOQ60Gd1oTn6zwQ0Y",
         "alt":"Foto Logo Fluence",
         "mode":"Jornada completa",
         "start":"2018",
@@ -19,7 +19,7 @@
     {
         "position":"Evaluador de campo y Analista Jr.",
         "company":"Gie Group",
-        "img":"./img/gie.jfif",
+        "img":"https://media.licdn.com/dms/image/C560BAQEU5a21ATdxeA/company-logo_200_200/0/1536685643269?e=1683158400&v=beta&t=4557buyVPrz5F3pb3lB00n0IuCSHORNMMs-vjcCB-hQ",
         "alt":"Foto Logo Gie",
         "mode":"Jornada completa",
         "start":"2017",
@@ -30,7 +30,7 @@
     {
         "position":"Diseñador Mecánico",
         "company":"Abreu",
-        "img":"./img/Abreu.jfif",
+        "img":"https://media.licdn.com/dms/image/C4D0BAQGPtDck2TeuMg/company-logo_200_200/0/1657568960848?e=1683158400&v=beta&t=qSevVzFw8s_PaPJ2USv1OBrOVxupcRXagMWNXXv0-Io",
         "alt":"Foto Logo Abreu",
         "mode":"Jornada completa",
         "start":"2017",
@@ -41,7 +41,7 @@
     {
         "position":"Investigador Jr.",
         "company":"Facultad Nacional de Ingenieria - UNMDP",
-        "img":"./img/Universidad.webp",
+        "img":"https://media.licdn.com/dms/image/C4E0BAQGCQ0Uy1VoVOA/company-logo_200_200/0/1519897632114?e=1683158400&v=beta&t=dbxqqdgU4Wr9nFM0mk_PvCZHqGdck_XmuS2jiVOoFgE",
         "alt":"Foto Logo UNMDP",
         "mode":"Jornada completa",
         "start":"2015",
@@ -52,7 +52,7 @@
     {
         "position":"Diseñador Mecánico",
         "company":"STI Ingeniería",
-        "img":"./img/STIIngenieria.webp",
+        "img":"https://media.licdn.com/dms/image/C4E0BAQEsfnKaqLR2EA/company-logo_200_200/0/1585928778276?e=1683158400&v=beta&t=h40iD-2NqnMRLJuuFitXlQAGp8S-KUX3OgdQs8djnBU",
         "alt":"Foto Logo STI Ingeniería",
         "mode":"Jornada completa",
         "start":"2015",
@@ -66,7 +66,7 @@
         "description":"Desarrollo FrontEnd y BackEnd profolio personal.<br> Desarrollador FullStack Jr.",
         "start":"2022",
         "end":"2022",
-        "img":"./img/argentina_programa.jfif",
+        "img":"https://media.licdn.com/dms/image/C560BAQGv-Dd7A2pQ0g/company-logo_100_100/0/1646458288684?e=1683158400&v=beta&t=xL76aEXcppgXoieKrZcYMrMlhKOkKUqVZ_VTRGAtG4E",
         "alt":"Logo Argentina Programa"
     },
     {
@@ -74,7 +74,7 @@
         "description":"Conceptos fundamentales vinculados a la programación utilizando Gobstones.<br>Programación Imperativa y estructuras de datos utilizando JavaScript.<br>Programación con Objetos mediante el lenguaje Ruby.",
         "start":"2022",
         "end":"2022",
-        "img":"./img/argentina_programa.jfif",
+        "img":"https://media.licdn.com/dms/image/C560BAQGv-Dd7A2pQ0g/company-logo_100_100/0/1646458288684?e=1683158400&v=beta&t=xL76aEXcppgXoieKrZcYMrMlhKOkKUqVZ_VTRGAtG4E",
         "alt":"Logo Argentina Programa"
     },
     {
@@ -82,7 +82,7 @@
         "description":"Desarrollo en React JS.",
         "start":"2022",
         "end":"2022",
-        "img":"./img/e-learning.jpg",
+        "img":"https://media.licdn.com/dms/image/C4E0BAQHvAypiry8QaA/company-logo_100_100/0/1634842512403?e=1683158400&v=beta&t=WZC4LU-Ya84vU9ihKFtnMLoDF48MCWWrDqU-Xq96xIQ",
         "alt":"Logo E-Learning UTN FRBA"
     },
     {
@@ -90,7 +90,7 @@
         "description":"Especialización profesional en programación web con HTML,CSS, PHP y MySql",
         "start":"2021",
         "end":"2021",
-        "img":"./img/cfl402.png",
+        "img":"http://www.cfl402ee.com/data/files/logocfl402.png",
         "alt":"Logo Centro Formación Laboral N°402"
     },
     {
@@ -98,7 +98,27 @@
         "description":"Ingeniería Mecánica",
         "start":"2006",
         "end":"2016",
-        "img":"./img/Universidad.webp",
+        "img":"https://media.licdn.com/dms/image/C4E0BAQGCQ0Uy1VoVOA/company-logo_200_200/0/1519897632114?e=1683158400&v=beta&t=dbxqqdgU4Wr9nFM0mk_PvCZHqGdck_XmuS2jiVOoFgE",
         "alt":"Logo UNMDP"
-    }]
+    }
+],
+    "language":[{
+        "name":"Español",
+        "img":"https://static.vecteezy.com/system/resources/previews/004/756/959/original/argentina-flag-free-vector.jpg",
+        "level":"Competencia Bilingüe o nativa",
+        "alt":"Logo Bandera Argentina"
+    },
+    {
+        "name":"Inglés",
+        "img":"https://turismo.org/wp-content/uploads/2010/09/Bandera-del-Reino-Unido-760x400.png",
+        "level":"Competencia Avanzado",
+        "alt":"Logo Bandera Reino Unido"
+    },
+    {
+        "name":"Francés",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg",
+        "level":"Competencia Básica",
+        "alt":"Logo Bandera Francia"
+    }    
+]
 }

@@ -10,6 +10,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { PorfolioService } from './services/porfolio.service';
 import { HttpClientModule} from '@angular/common/http';
 import { LanguageComponent } from './components/language/language.component';
+import { ProyectsComponent } from './components/proyects/proyects.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { LanguageComponent } from './components/language/language.component';
     AboutComponent,
     ExperienceComponent,
     EducationComponent,
-    LanguageComponent
+    LanguageComponent,
+    ProyectsComponent
   ],
   imports: [
     BrowserModule,

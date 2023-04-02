@@ -120,5 +120,22 @@
         "level":"Competencia Básica",
         "alt":"Logo Bandera Francia"
     }    
+],
+    "proyect":[{
+        "name":"Contador",
+        "description":"Contador que incrementa, decrece y resetea. Utilización de HTML, CSS y JavaScript.",
+        "url":"https://proyecto-contador.netlify.app/"
+    },
+    {
+        "name":"Calculadora Simple",
+        "description":"Calculo de 2 input con los 4 operadores. Utilización de HTML, CSS y JavaScript.",
+        "url":"https://calcu-simple.netlify.app/"
+    },
+    {
+        "name":"Juego Piedra-Papel-Tijera",
+        "description":"Juego Piedra-Papel-Tijera con HTML, CSS y JavaScript vainilla.",
+        "url":"https://piedra-papel-tijera-juego.netlify.app/"
+    }
 ]
+
 }

@@ -1,0 +1,22 @@
+<section id="proyectos" class="card mat-card">
+    <div class="proyecto container">
+        <div>
+            <h2 class="titulo">Proyectos</h2>                
+        </div>        
+        <div class="row proyecto">            
+            <div *ngFor="let proyecto of proyectoList">
+                <div class="col-auto">
+                    <div class="card card-proyecto" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">{{proyecto.name}}</h5>                            
+                            <p class="card-text">{{proyecto.description}}</p>
+                            <div class="text-center">
+                                <a href={{proyecto.url}} target="_blank" class="btn btn-primary">Probar</a>
+                            </div>                        
+                        </div>
+                    </div> 
+                </div>             
+            </div>            
+        </div>                
+    </div>
+</section>
